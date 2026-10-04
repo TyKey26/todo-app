@@ -17,7 +17,7 @@ if errorlevel 1 (
 
 where dotnet >nul 2>nul
 if errorlevel 1 (
-    echo [ОШИБКА] .NET SDK не найден. Установите .NET 8 SDK.
+    echo [ОШИБКА] .NET SDK не найден. Установите .NET 9 SDK.
     pause
     exit /b 1
 )
